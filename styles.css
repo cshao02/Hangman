@@ -1,0 +1,172 @@
+body {
+  background-color: #64636B;
+}
+
+#box {
+  background-color: #2CC6C3;
+  border: 6px dotted blue;
+  padding-bottom: 25px;
+  box-shadow: 0px 0px 3px 3px black;
+}
+
+#home, #box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img {
+  background-color: white;
+  height: 320px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#display {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: cursive;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+img {
+  object-fit: cover;
+  width: 370px;
+  height: 300px;
+  margin-bottom: 0px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+}
+
+input, #submit {
+  border-radius: 5px;
+  border: none;
+}
+
+#input {
+  height: 25px;
+  box-shadow: 0 0 1px 1px blue;
+}
+
+#input:focus {
+  outline: none;
+  
+}
+
+#submit {
+  font-family: cursive;
+  background-color: #3B99D3;
+  box-shadow: 0 0 1px 1px blue;
+}
+
+#submit:hover {
+  cursor: pointer;
+  color: white;
+}
+
+@keyframes hooray {
+  33% {background-color: red}
+  66% {background-color: green}
+  100% {background-color: blue}
+}
+
+.animation {
+  animation: hooray 0.33s linear infinite;
+}
+
+#history {
+  position: absolute;
+  top: 0%;
+  max-width: 15%;
+  padding-left: 2px;
+  font-family: monospace;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+#history p {
+  margin-top: 0px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+#back {
+  font-family: cursive;
+  border-radius: 3px;
+  height: 30px;
+  border: none;
+  box-shadow: 1px 1px 2px 1px black;
+  padding: 5px;
+}
+
+#back:hover {
+  cursor: pointer;
+  color: red;
+}
+
+#welcome {
+  color: white;
+  font-family: cursive;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#home button {
+  height: 50px;
+  width: 150px;
+  font-family: cursive;
+  border-radius: 15px;
+  border: 1ps solid black;
+  font-weight: bold;
+  color: white;
+  
+}
+
+#mrt {
+  background-color: blue;
+}
+
+#mrt:hover {
+  color: blue;
+}
+
+#mrt:hover, #countries:hover, #food:hover {
+  background-color: white;
+  cursor:pointer;
+}
+
+#countries {
+  background-color: red;
+}
+
+#countries:hover {
+  color: red;
+}
+
+#food {
+  background-color: green;
+}
+
+#food:hover {
+  color: green;
+}
+
+.gap {
+  gap: 10px;
+}
+
+#me {
+  padding-top: 45px;
+  text-align: center;
+  color: #8ACAFF;
+  font-family: monospace;
+}
